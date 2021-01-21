@@ -11,9 +11,9 @@ SELECT * FROM `jaar2015` WHERE region = "North America"
 -- Opdracht 6 
 SELECT country FROM `jaar2016` WHERE rank = 25
 -- Opdracht 7 
-SELECT * FROM `jaar2016` WHERE score > "7087"
+SELECT * FROM `jaar2016` WHERE score > 7087
 -- Opdracht 8
-SELECT country,region FROM `jaar2016` WHERE rank <= "5"
+SELECT country,region FROM `jaar2016` WHERE rank <= 5
 -- Opdracht 9
 SELECT score FROM `jaar2015` WHERE country = "Ireland"
 -- Opdracht 10
